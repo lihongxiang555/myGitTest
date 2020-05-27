@@ -14,11 +14,11 @@ import javax.servlet.http.HttpServletResponse;
 public class DemoController {
     @RequestMapping(method = RequestMethod.GET,value = "/jiSuanQi")
     public String jiSuanQi(HttpServletResponse response){
-        String s="{\n" +
+        String s1="{\n" +
                 "  \"name\": \"lihongxiang\",\n" +
                 "  \"sex\": 18\n" +
                 "}";
-        return s;
+        return s1;
 
     }
     @RequestMapping(method = RequestMethod.GET,value = "/jiSuanQi2")
